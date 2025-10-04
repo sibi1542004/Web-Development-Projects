@@ -1,0 +1,156 @@
+body {
+    background-color: lightblue;
+}
+
+
+/* body:hover{
+    padding: 0px;
+} */
+
+.box-1 {
+    height: 550px;
+    float: left;
+    width: 300px;
+    margin-left: 130px;
+    margin-top: 40px;
+    background-color: white;
+    border: 5px double red;
+}
+
+.box-2 {
+    height: 550px;
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: white;
+    border: 5px double red;
+}
+
+.box-3 {
+    height: 550px;
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: white;
+    border: 5px double red;
+}
+
+.box-4 {
+    height: 550px;
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: white;
+    border: 5px double red;
+}
+
+img {
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 3px dashed red;
+    padding: 10px;
+    background-color: gray;
+}
+
+.head {
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.para {
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+/* .box-1-img:hover{
+    padding: 0px;
+} */
+
+.box-1:hover img {
+    padding: 0px;
+}
+
+.box-2:hover img {
+    padding: 0px;
+}
+
+.box-3:hover img {
+    padding: 0px;
+}
+
+.box-4:hover img {
+    padding: 0px;
+}
+
+.box-1:hover {
+    cursor: pointer;
+    padding: 0px;
+    border: 5px dashed red;
+}
+
+.box-2:hover {
+    cursor: pointer;
+    border: 5px dashed red;
+}
+
+.box-3:hover {
+    cursor: pointer;
+    border: 5px dashed red;
+}
+
+
+.box-4:hover {
+    cursor: pointer;
+    border: 5px dashed red;
+}
+
+/* div:hover{
+    cursor: pointer;
+     text-align: center;
+    border: 5px dashed red ;
+    padding: 0px;
+
+} */
+
+.icons {
+    float: left;
+    font-size: 30px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.link {
+    color: white;
+    background-color: royalblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.git {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.fb {
+    color: white;
+    background-color: royalblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.insta {
+    color: white;
+    background-color: rosybrown;
+    padding: 5px;
+    border-radius: 10px;
+}

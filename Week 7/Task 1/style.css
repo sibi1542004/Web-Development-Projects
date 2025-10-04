@@ -1,0 +1,142 @@
+body {
+    margin-left: 30px;
+}
+
+
+.whole-box {
+    display: flex;
+    /* gap:20px; */
+    /* margin-left: 90px; */
+}
+
+
+.man1 {
+    background-color: white;
+    box-sizing: border-box;
+    height: 380px;
+    width: 250px;
+    text-align: center;
+    /* float: left; */
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.image1 {
+    border: 2 px solid white;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.head {
+    margin: 0;
+    padding-bottom: 0px;
+}
+
+.para {
+    margin: 0;
+    text-align: center;
+    margin: 15px;
+}
+
+.man2 {
+    background-color: white;
+    box-sizing: border-box;
+    height: 380px;
+    width: 250px;
+    text-align: center;
+    /* float: left; */
+    margin: 0;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-top: 40px
+}
+
+.image2 {
+    border: 2 px solid white;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.head2 {
+    margin: 0;
+    padding-bottom: 0px;
+}
+
+.para2 {
+    margin: 0;
+    text-align: center;
+    margin: 15px;
+}
+
+
+.man3 {
+    background-color: white;
+    box-sizing: border-box;
+    height: 380px;
+    width: 250px;
+    text-align: center;
+    /* float: left; */
+    margin: 0;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-top: 40px
+}
+
+.image3 {
+    border: 2 px solid white;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.head3 {
+    margin: 0;
+    padding-bottom: 0px;
+}
+
+.para3 {
+    margin: 0;
+    text-align: center;
+    margin: 15px;
+}
+
+.man4 {
+    background-color: white;
+    box-sizing: border-box;
+    height: 380px;
+    width: 250px;
+    text-align: center;
+    /* float: left; */
+    margin: 0;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-top: 40px
+}
+
+.image4 {
+    border: 2 px solid white;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.head4 {
+    margin: 0;
+    padding-bottom: 0px;
+}
+
+.para4 {
+    margin: 0;
+    text-align: center;
+    margin: 15px;
+}
+
+@media only screen and (min-width:300px) and (max-width:600px) {
+
+    .whole-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+}
+
+.whole-box {
+    background-image: url("https://wallpapers.com/images/featured/civil-engineering-pa6hvqgpaqfw6mgb.jpg");
+    height: 580px;
+    background-size: 1500px 100%;
+    background-repeat: no-repeat;
+    /* background-position: 0% 50%; */
+    margin: auto;
+}
+
+.head {
+    margin: 0px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+table,
+th,
+td {
+    text-align: Center;
+    margin: auto;
+    padding: 9px;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+table {
+    background-color: white;
+    width: 55%;
+}
+
+.bg-color {
+    background-color: purple;
+    border: none;
+    color: white;
+    border: 2px solid purple;
+}
+
+.color {
+    background-color: purple;
+    border: none;
+    border: 2px solid purple;
+    text-align: left;
+}
+
+.left {
+    text-align: left;
+    width: 130px;
+}
+
+.colour {
+    background-color: white;
+    color: black;
+}
+
+.colour1 {
+    color: red;
+}
+
+
+.colour2 {
+    color: blue;
+}
+
+.colour3 {
+    color: purple;
+}
+
+#tick {
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.button1 {
+    border: 1px solid maroon;
+    border-radius: 50px;
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+    width: 130px;
+}
+
+.footer {
+    margin: 0px;
+    /* height: 4px; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.paragraph {
+    width: 25%;
+    margin-left: 530px;
+}
+
+.foot-para {
+    padding-top: 80px;
+}
+
+span {
+    color: purple;
+    /* border: 2px solid purple; */
+    border-bottom: 2px solid purple;
+}

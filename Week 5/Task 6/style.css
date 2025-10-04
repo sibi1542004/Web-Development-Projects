@@ -1,0 +1,73 @@
+.p,div,h1,h2{
+box-sizing: border-box;     
+}
+
+.head{
+    text-align: center;
+}
+
+.pic1{
+height:150px;
+width:1210px;
+background-color: darkblue;
+color: white;
+border-radius: 5px;
+margin-left: 90px;
+background-image: url("https://freedesignfile.com/upload/2020/07/Woaman-in-Virtual-Meeting-Vector.jpg");
+background-repeat: no-repeat;
+/* background-position: 20px 0px; */
+background-size: 200px 160px;
+background-position: right center; 
+}
+
+
+.pic2{
+height:150px;
+width:1210px;
+margin-top: 25px;
+background-color: forestgreen;
+color: white;
+border-radius: 5px;
+margin-left: 90px;
+background-image: url("https://thumbs.dreamstime.com/b/couple-builders-talking-characters-vector-illustration-design-134162494.jpg");
+background-repeat: no-repeat;
+/* background-position: 20px 0px; */
+background-size: 200px 160px;
+background-position: right center; 
+}
+
+
+.pic3{
+height:150px;
+width:1210px;
+margin-top: 25px;
+background-color: orangered;
+color: white;
+border-radius: 5px;
+margin-left: 90px;
+background-image: url("https://www.shutterstock.com/image-vector/food-delivery-man-riding-red-600nw-1327144634.jpg");
+background-repeat: no-repeat;
+/* background-position: 20px 0px; */
+background-size: 200px 160px;
+background-position: right center; 
+}
+
+.heading{
+margin: 0px;
+margin-left: 15px;
+ padding-top: 20px;
+}
+
+.para{
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width:100%;
+}
+.button{
+    padding: 5px;
+    border:2px solid white;
+    border-radius: 2px;
+    margin-left: 15px;
+}

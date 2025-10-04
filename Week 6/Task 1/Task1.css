@@ -1,0 +1,104 @@
+.all{
+    width:100%;
+    height:500px;
+}
+.first{
+    width:40%;
+    padding:20px;
+    margin-top:50px;
+    margin-right:50px;
+    margin-left:50px;
+    float:left;
+}
+.map{
+    float:left;
+}
+.icon{
+    float:left;
+    padding-top: 30px;
+    font-size: 40px;
+    color:green;
+}
+.from{
+    float:left;
+    margin-left: 20px;
+    margin-bottom: 0;
+    color:orangered;
+}
+.para1{
+    clear:left;
+    margin-left:70px;
+    width: 70%;
+    margin-top: 0;
+}
+.contact{
+    margin-left: 10px;
+}
+.pet{
+    width:20%;
+    float:left;
+    margin-top:30px;
+    margin-left:50px;
+}
+.paw{
+    float:left;
+    margin-top:20px;
+    font-size: 25px;
+    color:orangered;
+}
+.m4{
+    float:left;
+    margin-left:10px;
+}
+.icons{
+    clear:left;
+}
+.img{
+    /* clear:left; */
+    float: left;
+    background-color: orangered;
+    color:white;
+    font-size: 20px;
+    border-radius: 50%;
+    padding:5px;
+    margin:5px;
+}
+.about{
+    width:25%;
+    margin-top:30px;
+    float:left;
+}
+.clock,.key,.loct{
+    padding:10px;
+}
+.abo{
+    color:orangered;
+}
+.quick{
+    color:orangered;
+}
+.link{
+    width:20%;
+    float:left;
+    margin-top:30px;
+}
+.new{
+    float:left;
+    margin-top:30px;
+}
+.mail{
+    padding:5px 90px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 2px solid  gray;
+}
+.sub{
+    padding:5px 80px;
+    border-radius: 20px;
+    border: 2px solid orangered;
+    background-color: orangered;
+    color:white;
+}
+.letter{
+    color:orangered;
+}

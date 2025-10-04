@@ -1,0 +1,156 @@
+body{
+    background-color: lightgray;
+    margin: 0px;
+}
+
+.whole-box{
+ background-color: white;
+ height: 700px;
+ width:1200px;
+ margin: auto;
+}
+
+.head{
+    margin: 0px;
+    font-size: 40px;
+    margin-top: 10px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.icons{
+    float: left;
+    /* background-color: springgreen; */
+    width:50%;
+}
+
+#watch{
+    font-size: 50px;
+    color: lightgreen;
+    margin-left: 30px;
+    margin-top: 40px;
+    float: left;
+}
+
+.time{
+    float: left;
+    margin: 0px;
+    padding-top: 50px;
+    padding-left: 30px;
+    color: orangered;
+}
+
+.para{
+    clear: left;
+    margin: 0px;
+    margin-top: 0px;
+    padding-left: 122px;
+    width:80%;
+}
+
+.icons2{
+    /* float: left; */
+    /* background-color: royalblue; */
+    width:50%;
+    margin-top: 10px;
+}
+
+.map{
+    float: left;
+    margin-right: 20px;
+}
+
+/* .footer{
+    float: left;
+    background-color: aqua;
+} */
+
+.icons1{
+    float: left;
+    background-color: aqua;
+}
+#pet{
+    color: orangered;
+    float: left;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-left: 70px;
+}
+
+.pet-head{
+    float: left;
+    padding-top: 180px;
+    padding-left: 10px;
+}
+
+.icon-footer{
+    /* float: left; */
+    clear: left;
+    margin-right: 300px;
+    /* margin-left: 60px; */
+}
+
+#twit{
+    float: left;
+    border: 2px solid orangered;
+    background-color: orangered;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    margin-left: 68px;
+
+}
+
+#insta{
+    float: left;
+    border: 2px solid orangered;
+    background-color: orangered;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    margin-left: 10px;
+
+}
+
+
+#you{
+    float: left;
+    border: 2px solid orangered;
+    background-color: orangered;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    margin-left: 10px;
+
+}
+
+
+table,th,td{
+      border:2px solid black;
+      border-collapse:collapse;
+      box-sizing:border-box;
+      text-align:Center;
+      padding:5px;
+}
+
+.about{
+font-size: 25px;
+text-align: left;
+color: orangered;
+}
+
+.table{
+    /* height: 100px;
+    width:90%;
+    background-color: green; */
+    float: left;
+    margin: 0px;
+    margin-left: 40px;
+}
+
+
+
+

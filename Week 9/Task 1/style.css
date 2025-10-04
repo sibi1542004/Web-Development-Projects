@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.whole-box {
+    display: grid;
+    /* grid-template-columns: auto auto; */
+    grid-template-areas: 'head menus menus menus menus menus' 'hero hero hero hero hero hero' 'main main main main main image' 'main main main main main extra' 'banner banner banner banner banner banner';
+    /* gap: 10px; */
+}
+
+.box {
+    min-width: 150px;
+    min-height: 150px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.box1 {
+    background-color: black;
+    grid-area: head;
+}
+
+.box2 {
+    background-color: red;
+    grid-area: menus;
+}
+
+.box3 {
+    background-color: royalblue;
+    grid-area: hero;
+    min-width: 150px;
+    min-height: 350px;
+}
+
+.box4 {
+    background-color: darkblue;
+    grid-area: main;
+}
+
+.box5 {
+    background-color: yellow;
+    grid-area: banner;
+    color: black;
+}
+
+.box6 {
+    background-color: lightgreen;
+    color: black;
+    grid-area: extra;
+}
+
+.box7 {
+    background-color: skyblue;
+    color: black;
+    grid-area: image;
+}
+
+@media only screen and (min-width:300px) and (max-width:600px){
+.whole-box{
+    display: unset;
+    /* padding: 10px; */
+    /* margin: 10px; */
+}
+
+.box3{
+    min-height: 150px;
+}
+}
+
+@media only screen and (min-width:600px) and (max-width:900px){
+.whole-box{
+    display: grid;
+    grid-template-areas: 'head head head head head' 'hero hero hero hero hero' 'menus main main main main' 'menus banner banner banner banner' 'menus extra extra extra image' ;
+}
+.box4{
+    min-height: 280px;
+}
+.box6{
+    min-width: 200px;
+}
+}

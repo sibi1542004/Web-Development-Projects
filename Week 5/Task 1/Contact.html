@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+  <head>
+      <title> Task 1 </title>
+      <script src="https://kit.fontawesome.com/719ad78349.js" crossorigin="anonymous"></script>
+      <style>
+      body{
+      background-color:skyblue;
+      margin:0px;
+      margin-top:5px;
+      margin-left:135px;
+      
+       }
+      .whole-box{
+       height:575px;
+       background-color:white;
+       width:1000px;
+       }
+
+      .box-2{
+       height:575px;
+       width:50%;
+       background-color:darkblue;
+       float:left;
+        }
+
+      .message{
+       font-size:25px;
+       margin-left:30px;
+       color:white;
+       margin-top:50px;
+      }
+
+     .name{
+      color:gray;
+      margin:0px;
+      margin-left:30px;
+       }
+     .line{
+      margin-left:30px;
+      width:85%;
+      background-color:darkblue;
+      border:none;
+      border-bottom:2px solid gray; 
+      margin-bottom:30px;
+      outline:none;
+      color:white;
+      }
+
+     .line2{
+      margin-left:30px;
+      width:85%;
+      background-color:darkblue;
+      border:none;
+      border-bottom:2px solid gray; 
+      margin-bottom:30px;
+      margin-top:5px;
+      outline:none;
+      color:white;
+      }
+
+     .line3{
+      margin-left:30px;
+      width:85%;
+      border:none;
+      background-color:darkblue;
+      border-bottom:2px solid gray; 
+      margin-top:5px;
+      margin-bottom:10px;
+      outline:none;
+      color:white;
+      }
+
+     button{
+     padding:10px;
+     background-color:yellow;
+     border:2px solid yellow;
+     margin-left:30px;
+     border-radius:5px;
+      }
+
+    .box-1{
+    float:left;
+    margin-top:50px;
+    margin-left:50px;
+     }
+
+    .head{
+     font-size:25px;
+     margin:0px;
+     margin-bottom:10px;
+      }
+    span{
+    border-bottom:2px solid darkblue;
+      }
+   
+    .desc{
+     margin:0px;
+      }
+
+    .location{
+     margin-top:20px;
+     margin-left:10px;
+     margin-bottom:80px;
+
+
+      }
+    #loc{
+     float:left;
+     }
+  
+    .address{
+     margin-left:25px;
+     width:80%;
+      }
+
+    .phone{
+     margin-left:10px;
+     margin-bottom:80px;
+     }
+
+    .ph{
+     border:none;
+     outline:none;
+     }
+
+    .tele{
+     margin-left:10px;
+      margin-bottom:80px;
+
+     }
+
+    .website{
+     margin-left:10px;
+     }
+
+     
+      </style>
+  </head>
+  <body>
+      <div>
+      <form>
+      <div class = "whole-box">
+      <div class = "box-2">
+      <p class = "message"> <b>Send Us a message</b> </p>
+      <label class = "name"> Name </label><br>
+      <input class = "line" type = "text" name = "fname" placeholder= ""/>
+
+      <label class = "name"> Email </label><br>
+      <input class = "line2" type = "text" name = "fname" placeholder= ""/>
+
+      <label class = "name"> Subject </label><br>
+      <input class = "line2" type = "text" name = "fname" placeholder= ""/>
+
+      <label class = "name"> Message </label><br>
+      <textarea class = "line3" cols= "40" rows = "10">
+      </textarea>
+      <button>  Send Message </button>   
+      </div>
+      <div class = "box-1">
+      <p class = "head"> <span>Cont</span>act US </p>
+      <p class = "desc"> We're open for any suggestion or just to have a chat </p>
+      <div class = "location"> 
+      <i id = "loc"class="fa-solid fa-location-dot"></i>
+      <p class = "address"> Address: 196 West 21st street,suite 721 New York NY 10016 </p>
+      </div>
+    
+     <div class = "phone">
+     <i class="fa-solid fa-phone"></i>
+     <label> Phone: </label>
+     <input class = "ph" type = "text" name = "fname" placeholder= "+ 1235 2355 98" required/>
+     </div> 
+
+     <div class = "tele">
+     <i class="fa-solid fa-paper-plane"></i>
+     <label> Email: </label>
+     <input class = "ph" type = "text" name = "fname" placeholder= "info@yoursite.com" required/>
+     </div> 
+
+
+     <div class = "website">
+     <i class="fa-solid fa-earth-americas"></i>
+     <label> Website: </label>
+     <input class = "ph" type = "text" name = "fname" placeholder= "yoursite.com" required/>
+     </div> 
+      </div>
+      </form>
+      </div>
+      </div>
+      
+  </body>
+</html>
