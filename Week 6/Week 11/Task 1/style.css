@@ -1,0 +1,126 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.overall{
+    overflow: hidden;
+}
+.upper{
+    display:flex;
+    justify-content:space-between;
+    background-color:cornflowerblue;
+    color:white;
+    padding:20px;
+}
+.under{
+    animation-name: anchor;
+    animation-delay:2s;
+    animation-iteration-count: 1;
+    animation-duration:2s;
+}
+@keyframes anchor{
+    from{
+        transform:translateY(-100px);
+    }
+    to{
+        
+    }
+}  
+
+.upper>h1{
+    animation-name: head;
+    animation-duration:2s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+}
+@keyframes head {
+    from{
+        transform:translateY(-100px);
+    }
+    to{
+        /* transform:translateY(-40px); */
+    }
+}
+a{
+    text-decoration:none;
+    color:white;
+    margin: 0px 10px;
+    font-size:20px;
+    padding:10px;
+    /* width:20px; */
+    border-radius:5px;
+}
+a:hover{
+    background-color:goldenrod;
+}
+
+.content1{
+    margin-top:20px;
+    padding:20px;
+    /* z-index:1; */
+    animation-name: content;
+    animation-duration:2s;
+    animation-delay:2s;
+    animation-iteration-count:1;
+}
+@keyframes content{
+    from{
+        transform:translatex(-100%);
+    }
+    to{
+
+    }
+}
+.content1>h1{
+    font-size:50px;
+    margin:10px 0px;
+}
+p{
+    font-size:29px;
+}
+.content2{
+    margin-top:20px;
+    padding:20px;
+    animation-name: contentd;
+    animation-duration:2s;
+    animation-delay:2s;
+    animation-iteration-count:1;
+}
+.content2>h1{
+    font-size:50px;
+    margin:10px 0px;
+    
+}
+@keyframes contentd{
+    from{
+        transform:translatex(100%);
+    }
+    to{
+
+    }
+}
+@media only screen and (min-width:300px) and (max-width:600px){
+    .overall{
+        width:100%;
+    }
+    .upper{
+        width:100%;
+    }
+    .upper>h1{
+        font-size:20px;
+    }
+    a{
+        font-size:10px;
+        margin:0px;
+    }
+}
+@media only screen and (min-width:600px)and (max-width:900px){
+    .overall{
+        width:100%;
+    }
+    .upper{
+        width:100%;
+    }
+    
+}

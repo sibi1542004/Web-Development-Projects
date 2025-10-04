@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+div{
+    min-height:100vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:royalblue;
+}
+h1{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    background-color:magenta;
+    animation-name:ball;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    transition:all 2s;
+}
+@keyframes ball{
+    0%{
+        box-shadow:0px 50px 50px 0px rgb(19,18,18);
+    }
+    50%{
+        transform:translateY(100px);
+        box-shadow: 0px 40px 40px 10px rgb(19, 18, 18);
+    }
+    100%{
+        transform:translateY(0);
+         box-shadow: 0px 30px 30px 0px rgb(19, 18, 18);
+    }
+}
